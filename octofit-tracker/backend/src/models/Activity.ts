@@ -9,5 +9,4 @@ const activitySchema = new Schema({
   occurredAt: { type: Date, required: true },
 });
 
-
 export const Activity = model('Activity', activitySchema);
